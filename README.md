@@ -86,6 +86,6 @@ This project implements various Redis data structures using C++ as part of the f
    - Modify the text files to test different scenarios and check the performance of all commands.
    - Syntax for commands should be in capital words and follow the format similar to Redis files.
 
-Author
+# Author
 Kainat Umar
-Final Project for Data Structures and Algorithms (Sem-4)
+Final Project for Data Structures and Algorithms Course
