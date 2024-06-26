@@ -88,4 +88,3 @@ This project implements various Redis data structures using C++ as part of the f
 
 # Author
 Kainat Umar
-Final Project for Data Structures and Algorithms Course
