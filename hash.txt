@@ -1,0 +1,15 @@
+HSET myhash field1 hello1
+HSET myhash field2 hello2
+HSET myhash field3 hello3
+HDEL myhash field1
+HGET myhash field1
+HGETALL myhash
+HEXISTS myhash field1
+HKEYS myhash
+HVALS myhash
+HLEN myhash
+MSET myhash2 fld2 val2 fld3 val3 fld4 val4
+HMGET myhash2 fld1 fld2 fld3
+HSETNX myhash field2 val
+HGET myhash field2
+HSTRLEN myhash field2

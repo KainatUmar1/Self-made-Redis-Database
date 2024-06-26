@@ -1,0 +1,10 @@
+LPUSH key a b c d e f g h y tr e 
+LPUSHX key d
+PRINT key
+LLEN key
+LINDEX key 2
+LSET key 1 e
+LPOP key 2
+LRANGE key 1 3
+LTRIM key 2 7
+PRINT key

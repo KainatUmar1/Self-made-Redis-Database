@@ -1,0 +1,4 @@
+HSET hash f1 h1
+HSET hash f2 h2
+HSET hash f3 h3
+HGETALL hash - -

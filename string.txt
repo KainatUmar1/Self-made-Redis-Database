@@ -1,0 +1,18 @@
+SET name John
+SET age 25
+GET name
+GET age
+SETNX mykey hello
+GET mykey
+MSET 3 Alice 4 Bob 5 Carol
+MGET name age 3 4 5
+APPEND father joj
+GETDEL father
+GET father
+MSETNX key1 Hello key2 there
+MSETNX key2 new key3 world
+MGET key1 key2 key3
+SET country This is Pakistan
+GETRANGE country 2 10
+SUBSTR country 2 10
+STRLEN country

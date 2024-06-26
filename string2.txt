@@ -1,0 +1,4 @@
+SET name john
+SET age 12
+GET name -
+GET age -

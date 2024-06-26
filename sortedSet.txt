@@ -1,0 +1,13 @@
+ZADD set1 1 one
+ZADD set1 2 two
+ZADD set1 3 three
+ZADD set1 4 four
+ZADD set2 5 five
+ZADD set2 6 six
+ZADD set2 3 three
+ZADD set2 1 one
+ZPRINT set1
+ZPRINT set2
+ZSCORE set2 three
+ZPOPMIN set1 2
+kai

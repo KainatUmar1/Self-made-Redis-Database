@@ -1,0 +1,22 @@
+SADD key1 a b c d
+SADD key2 c
+SADD key3 a c e
+SMEMBERS key1
+SMEMBERS key2
+SMEMBERS key3
+SCARD key1
+SDIFF key1 key2 key3
+SDIFFSTORE key key1 key2 key3
+SMEMBERS key
+SUNION key1 key2 key3
+SUNIONSTORE set key1 key2
+SMEMBERS set
+SINTER key1 key3
+SINTERCARD key1 key3
+SINTERSTORE set key1 key3
+SMEMBERS set
+SISMEMBER key1 e
+SMISMEMBER key1 a d f
+SMOVE key1 key2 b
+SPOP key1 2
+SREM key2 b
