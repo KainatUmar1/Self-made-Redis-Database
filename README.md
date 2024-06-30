@@ -4,7 +4,7 @@
 This project implements various Redis data structures using C++ as part of the final project for the Data Structures and Algorithms course. The implementation includes several key functionalities for Redis data structures such as Strings, Hashes, Sets, Sorted Sets, and Lists.
 
 # Features
-# Redis Strings
+## Redis Strings
 - SET: Sets a key with a corresponding string value.
 - GET: Retrieves the string value associated with a key.
 - DEL: Deletes a key-value pair.
@@ -18,7 +18,7 @@ This project implements various Redis data structures using C++ as part of the f
 - GETRANGE/SUBSTR: Retrieve a substring of the value associated with a key based on specified indices.
 - STRLEN: Returns the length of the string value associated with a key.
 
-# Redis Hashes
+## Redis Hashes
 - HSET: Sets the value of a field for a given key.
 - HGET: Retrieves the value of a specific field for a given key.
 - HDEL: Deletes a specific field and its value for a given key.
@@ -31,7 +31,7 @@ This project implements various Redis data structures using C++ as part of the f
 - HSETNX: Sets the value of a field only if it does not already exist.
 - HSTRLEN: Returns the length of the string value of a specific field for a given key.
 
-# Redis Sets
+## Redis Sets
 - SADD: Adds one or more members to a set associated with a key.
 - SCARD: Returns the cardinality (number of members) of a set.
 - SDIFF: Computes the set difference between the first set and one or more other sets.
@@ -48,7 +48,7 @@ This project implements various Redis data structures using C++ as part of the f
 - SUNION: Computes the set union of multiple sets.
 - SUNIONSTORE: Stores the set union in a new set.
 
-# Redis Sorted Sets
+## Redis Sorted Sets
 - ZADD: Adds a member with a specified score to the sorted set. If the member already exists, it updates the score.
 - ZREM: Removes a member from the sorted set.
 - ZDIFF, ZINTER, ZUNION: Computes the set difference, intersection, and union of two sorted sets, respectively.
@@ -60,7 +60,7 @@ This project implements various Redis data structures using C++ as part of the f
 - ZRANK: Returns the rank (position) of a member in the sorted set.
 - ZCOUNT: Returns the count of members with scores within a specified range.
 
-# Redis Lists
+## Redis Lists
 - LPUSH/RPUSH: Add a new node with the given value to the head or tail, respectively.
 - LPUSHX/RPUSHX: Add a new node with the given value only if the list exists.
 - LPOP/RPOP: Remove and return one or more elements from the head or tail.
