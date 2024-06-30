@@ -75,16 +75,16 @@ This project implements various Redis data structures using C++ as part of the f
 - DESTRUCTOR: Safely deallocates memory by deleting all nodes in the list.
 
 # How to Use
-1. Build the Project:
+1. **Build the Project**:
    - Ensure you have a C++ compiler installed.
    - Compile the project using the provided makefile or manually compile the source files.
-2. Run the Program:
+2. **Run the Program**:
    - Execute the main program.
    - Follow the menu to select and run the desired data structure operations.
-3. Test the Commands:
+3. **Test the Commands**:
    - Use the provided text files to load and test various commands for each data structure.
    - Modify the text files to test different scenarios and check the performance of all commands.
    - Syntax for commands should be in capital words and follow the format similar to Redis files.
 
 # Author
-Kainat Umar
+**Kainat Umar** - *Developer of the `Redis-Database` Project in CPP using Data Structures.*
